@@ -1,0 +1,38 @@
+{
+    "name": "@next-auth/appwrite-adapter",
+    "version": "1.0.2",
+    "description": "Appwrite adapter for next-auth.",
+    "homepage": "https://next-auth.js.org",
+    "repository": "https://github.com/nextauthjs/next-auth",
+    "bugs": {
+      "url": "https://github.com/nextauthjs/next-auth/issues"
+    },
+    "contributors": [],
+    "license": "ISC",
+    "keywords": [
+      "next-auth",
+      "next.js",
+      "appwrite"
+    ],
+    "private": false,
+    "publishConfig": {
+      "access": "public"
+    },
+    "scripts": {
+      "build": "tsc"
+    },
+    "peerDependencies": {
+          "next-auth": "^4"
+    },
+    "devDependencies": {
+      "@next-auth/adapter-test": "workspace:*",
+      "@next-auth/tsconfig": "workspace:*",
+      "jest": "^27.4.3",
+      "next-auth": "workspace:*",
+      "node-appwrite": "8.1.0",
+      "nanoid": "^4.0.0"
+    },
+    "dependencies": {
+      "nanoid": "^4.0.0"
+    }
+  }
